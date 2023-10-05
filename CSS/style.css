@@ -1,0 +1,54 @@
+html{
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.form {
+    width: 100%;
+    max-width: 700px;
+    height: 400px;
+    overflow: auto;
+    align-items: center;
+    padding: 65px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+  
+
+.form__legend {
+    
+    padding: 10px 30px;
+    color: rgb(45, 61, 61);
+    background-color: rgb(176, 218, 218);
+    border-radius: 20px;
+}
+
+.form__label {
+    font-size: large;
+    padding: 5px;
+    margin: 5px;
+}
+.form__fieldset {
+    background-color: rgb(237, 243, 243);
+    padding: 30px;
+    border-radius: 60px;
+}
+
+.form__input {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 7px;
+}
+
+.form__button {
+    width: 100%;
+    color: rgb(54, 66, 66);
+    background-color: rgb(176, 212, 212);
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+}
+.form__rateDay {
+    font-size: smaller;
+}
+

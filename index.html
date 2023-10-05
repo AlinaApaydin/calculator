@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="js/script.js"></script>
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel = "icon" href="images/cytrynka.png">
+    <title>Kantor</title>
+  </head>
+  <body>
+    <div>
+      <form class="form js-form">
+        <fieldset class="form__fieldset">
+          <legend class="form__legend">Kalkulator walut</legend>
+          <label class="form__label"> Wpisz kwotę w EUR </label>
+          <input class="form__input js-amount" type="number" />
+          <select class="form__select js-currency">
+            <option>USD</option>
+            <option>PLN</option>
+            <option>TRY</option>
+          </select>
+          <p>
+            <button class="form__button">Przelicz</button>
+          </p>
+          <p><strong class="js-result"></strong></p>
+          <p class="form__rateDay">*kurs walut z dnia 2023.09.22</p>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
