@@ -56,9 +56,8 @@ html{
 .container {
 
     background-image: url("../images/money.png");
-    background-size:cover;
+    background-size: cover;
     background-repeat: round;
     background-size: 150px;
-    overflow: auto;
-    
+    overflow: auto;    
 }
