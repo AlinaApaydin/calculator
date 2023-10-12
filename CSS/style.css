@@ -7,9 +7,9 @@ html{
 
 .form {
     width: 100%;
-    max-width: 700px;
-    height: 400px;
-    overflow: auto;
+    max-width: 600px;
+    max-height: 550px;
+    resize: both;
     align-items: center;
     padding: 65px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -55,10 +55,10 @@ html{
 }
 
 .container {
-
     background-image: url("../images/money.png");
-    background-size: cover;
     background-repeat: round;
-    background-size: 150px;
-    overflow: auto;    
+    background-size: 130px;
+    overflow: auto;
+    height: 100%;
+
 }
