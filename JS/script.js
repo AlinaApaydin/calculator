@@ -19,7 +19,7 @@ const updateResultText = (amount, result, currency) => {
   const resultElement = document.querySelector(".js-result");
   resultElement.innerHTML = `${amount.toFixed(
     2
-  )} EUR wynosi <strong>${result.toFixed(2)}$ {currency} </strong>`;
+  )} EUR wynosi <strong>${result.toFixed(2)}${currency}</strong>`;
 };
 
 const onFormSubmit = (event) => {
@@ -33,7 +33,7 @@ const onFormSubmit = (event) => {
 
   const result = calculateResult(amount, currency);
 
-  updateResultText = (amount, result, currency);
+  updateResultText (amount, result, currency);
 };
 
 const init = () => {
